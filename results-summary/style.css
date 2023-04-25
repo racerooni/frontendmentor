@@ -1,0 +1,39 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.result{
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    height: 40vh;
+    width: 300px;
+    text-align: center;
+    
+}
+
+.circle{
+    height: 150px;
+    width: 150px;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    margin: auto;
+    border-radius: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: -20px;
+}
+
+.summary{
+    height: 40vh;
+    width: 300px;
+    background-color: aquamarine;
+}
