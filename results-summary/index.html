@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  
   
   <title>Frontend Mentor | Results summary component</title>
 
@@ -20,29 +24,39 @@
         <h2>Your Result</h2>
         <div class="circle">
           <h1>76</h1>
-          <p>of 100</p>
+          <p class="purple">of 100</p>
         </div>
-        
+        <div>
+          <h2>Great</h2>
+          <p class="purple">You scored higher than 65% of the people who have taken these tests.</p>
+        </div>
 
-        Great
-        You scored higher than 65% of the people who have taken these tests.
+        
+        
     </div>
     <div class="summary">
-      Summary
+      <h1>Summary</h1>
+      <div class="sub bg-red">
+        <p><i><img src="assets/images/icon-reaction.svg" alt="" style="position: relative; top: 5px;"></i> Reaction</p>
+        <p>80 / 100</p>
+      </div>
+      <div class="sub bg-yellow">
+       <p><i><img src="assets/images/icon-memory.svg" alt="" style="position: relative; top: 5px;"></i> Memory</p>
+       <p>92 / 100</p>
+      </div>
+      <div class="sub bg-green">
+       <p><i><img src="assets/images/icon-verbal.svg" alt="" style="position: relative; top: 5px;"></i> Verbal</p>
+       <p>61 / 100</p> 
+      </div>
+      <div class="sub bg-blue">
+        <p><i><img src="assets/images/icon-visual.svg" alt="" style="position: relative; top: 5px;"></i> Visual</p>
+        <p>72 / 100</p>
+      </div>
+      <button type="button" role="button">Continue</button>
+        
 
-        Reaction
-        80 / 100
+        
 
-        Memory
-        92 / 100
-
-        Verbal
-        61 / 100
-
-        Visual
-        72 / 100
-
-        Continue
         
     </div>
   </div>
